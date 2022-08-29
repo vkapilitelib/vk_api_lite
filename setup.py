@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 with open("README.md", "r") as readme_file:
     readme = readme_file.read()
 
-requirements = ["requests>=2.22.0", "re>=2.2.1"]
+requirements = ["requests>=2.22.0"]
 
 setup(
     name="vk_api_lite",
